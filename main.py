@@ -1,15 +1,15 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import time
 
 import streamlit as st
-import seaborn as sns
+#import seaborn as sns
 
 
-plt.style.use('fivethirtyeight')
+""" plt.style.use('fivethirtyeight')
 pd.set_option('display.max_columns', 500)
-color_pal = plt.rcParams["axes.prop_cycle"].by_key()["color"]
+color_pal = plt.rcParams["axes.prop_cycle"].by_key()["color"] """
 
 from fredapi import Fred
 
